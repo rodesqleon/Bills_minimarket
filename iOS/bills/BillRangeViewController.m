@@ -33,6 +33,7 @@
 - (void) viewWillAppear:(BOOL)animated{
     [super viewWillAppear:YES];
     [self.navigationController setNavigationBarHidden:NO animated:YES];
+    [self.navigationController.navigationBar.backItem setTitle:@"Volver"];
     self.navigationController.navigationBar.translucent = NO;
     self.initialBill_txtField.delegate = self;
     self.endBill_txtField.delegate = self;

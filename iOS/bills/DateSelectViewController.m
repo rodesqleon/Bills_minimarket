@@ -32,10 +32,12 @@
     // Do any additional setup after loading the view.
 }
 
+
 - (void) viewWillAppear:(BOOL)animated{
     [super viewWillAppear:YES];
     [self.navigationController setNavigationBarHidden:NO animated:YES];
     self.navigationController.navigationBar.translucent = NO;
+    [self.navigationController.navigationBar.backItem setTitle:@"Volver"];
     self.datePicker = [UIDatePicker new];
     self.datePicker.datePickerMode = UIDatePickerModeDate;
     [self.inputDate setInputView:self.datePicker];

@@ -111,6 +111,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A41AE2CB1D3B2E52000577E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4908D5A1D3B1B6300A69A3D /* TransbankView.xib */,
+				A4908D501D3B0F3200A69A3D /* BillTableViewCell.xib */,
+				A452F2731D38757700C1B15D /* DateSelectView.xib */,
+				A4B107361D38976C00248CDC /* PaymentSelectView.xib */,
+				A4B1072E1D38950600248CDC /* WelcomeView.xib */,
+				A4908D431D3AE28500A69A3D /* BillRangeView.xib */,
+				A4908D481D3AE99F00A69A3D /* BillView.xib */,
+				A4908D551D3B15AB00A69A3D /* ExportView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A41AE2CC1D3B2E6B000577E8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A452F2751D38759B00C1B15D /* DateSelectViewController.h */,
+				A452F2761D38759B00C1B15D /* DateSelectViewController.m */,
+				A4B107331D38975700248CDC /* PaymentSelectViewController.h */,
+				A4B107341D38975700248CDC /* PaymentSelectViewController.m */,
+				A4B107301D38955E00248CDC /* WelcomeViewController.h */,
+				A4B107311D38955E00248CDC /* WelcomeViewController.m */,
+				A4908D451D3AE39800A69A3D /* BillRangeViewController.h */,
+				A4908D461D3AE39800A69A3D /* BillRangeViewController.m */,
+				A4908D4A1D3B0D8900A69A3D /* BillViewController.h */,
+				A4908D4B1D3B0D8900A69A3D /* BillViewController.m */,
+				A4908D4D1D3B0EFC00A69A3D /* BillTableViewCell.h */,
+				A4908D4E1D3B0EFC00A69A3D /* BillTableViewCell.m */,
+				A4908D521D3B159300A69A3D /* ExportViewController.h */,
+				A4908D531D3B159300A69A3D /* ExportViewController.m */,
+				A4908D571D3B1A7D00A69A3D /* TransbankViewController.h */,
+				A4908D581D3B1A7D00A69A3D /* TransbankViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		A452F2341D38750900C1B15D = {
 			isa = PBXGroup;
 			children = (
@@ -134,35 +172,13 @@
 		A452F23F1D38750900C1B15D /* bills */ = {
 			isa = PBXGroup;
 			children = (
-				A4908D5A1D3B1B6300A69A3D /* TransbankView.xib */,
-				A4908D501D3B0F3200A69A3D /* BillTableViewCell.xib */,
 				A452F2431D38750900C1B15D /* AppDelegate.h */,
 				A452F2441D38750900C1B15D /* AppDelegate.m */,
-				A452F24C1D38750900C1B15D /* Assets.xcassets */,
-				A452F2731D38757700C1B15D /* DateSelectView.xib */,
-				A452F2751D38759B00C1B15D /* DateSelectViewController.h */,
-				A452F2761D38759B00C1B15D /* DateSelectViewController.m */,
 				A452F2511D38750900C1B15D /* Info.plist */,
-				A4B107361D38976C00248CDC /* PaymentSelectView.xib */,
-				A4B107331D38975700248CDC /* PaymentSelectViewController.h */,
-				A4B107341D38975700248CDC /* PaymentSelectViewController.m */,
+				A452F24C1D38750900C1B15D /* Assets.xcassets */,
+				A41AE2CC1D3B2E6B000577E8 /* Controllers */,
 				A452F2401D38750900C1B15D /* Supporting Files */,
-				A4B1072E1D38950600248CDC /* WelcomeView.xib */,
-				A4B107301D38955E00248CDC /* WelcomeViewController.h */,
-				A4B107311D38955E00248CDC /* WelcomeViewController.m */,
-				A4908D431D3AE28500A69A3D /* BillRangeView.xib */,
-				A4908D451D3AE39800A69A3D /* BillRangeViewController.h */,
-				A4908D461D3AE39800A69A3D /* BillRangeViewController.m */,
-				A4908D481D3AE99F00A69A3D /* BillView.xib */,
-				A4908D4A1D3B0D8900A69A3D /* BillViewController.h */,
-				A4908D4B1D3B0D8900A69A3D /* BillViewController.m */,
-				A4908D4D1D3B0EFC00A69A3D /* BillTableViewCell.h */,
-				A4908D4E1D3B0EFC00A69A3D /* BillTableViewCell.m */,
-				A4908D521D3B159300A69A3D /* ExportViewController.h */,
-				A4908D531D3B159300A69A3D /* ExportViewController.m */,
-				A4908D551D3B15AB00A69A3D /* ExportView.xib */,
-				A4908D571D3B1A7D00A69A3D /* TransbankViewController.h */,
-				A4908D581D3B1A7D00A69A3D /* TransbankViewController.m */,
+				A41AE2CB1D3B2E52000577E8 /* Views */,
 			);
 			path = bills;
 			sourceTree = "<group>";

@@ -39,6 +39,7 @@
     [super viewWillAppear:YES];
     [self.navigationController setNavigationBarHidden:NO animated:YES];
     self.navigationController.navigationBar.translucent = NO;
+    [self.navigationController.navigationBar.backItem setTitle:@"Volver"];
 }
 
 

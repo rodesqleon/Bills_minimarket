@@ -32,6 +32,7 @@
     [super viewWillAppear:YES];
     [self.navigationController setNavigationBarHidden:NO animated:YES];
     self.navigationController.navigationBar.translucent = NO;
+    [self.navigationController.navigationBar.backItem setTitle:@"Volver"];
     [self.billTableView registerNib:[UINib nibWithNibName:@"BillTableViewCell" bundle:nil] forCellReuseIdentifier:@"CellID"];
     self.billNumber_txtField.text = [NSString stringWithFormat:@"%d",self.initial_bill];
     self.billValue_txtField.delegate = self;
