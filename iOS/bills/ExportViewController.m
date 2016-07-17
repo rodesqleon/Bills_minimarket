@@ -30,7 +30,11 @@
 }
 
 - (IBAction)export:(id)sender{
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://always420.cl/xlsFile.php"]];
+    if([self.type isEqualToString:@"Efectivo"]){
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://always420.cl/xlsFile.php"]];
+    }else{
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://always420.cl/xlsFileTransbank.php"]];
+    }
 }
 
 - (IBAction)startAgain:(id)sender{

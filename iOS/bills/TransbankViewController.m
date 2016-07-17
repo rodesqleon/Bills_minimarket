@@ -209,6 +209,7 @@
 -(void)didFinish{
     
     ExportViewController *rangeView = [ExportViewController new];
+    rangeView.type = @"Transbank";
     [[self navigationController] pushViewController:rangeView animated:YES];
     
 }

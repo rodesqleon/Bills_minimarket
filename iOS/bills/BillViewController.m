@@ -212,6 +212,7 @@
 -(void)didFinish{
     
     ExportViewController *rangeView = [ExportViewController new];
+    rangeView.type = @"Efectivo";
     [[self navigationController] pushViewController:rangeView animated:YES];
     
 }

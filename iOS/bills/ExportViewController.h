@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ExportViewController : UIViewController
-
+@property (nonatomic) NSString *type;
 @end
