@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BillRangeViewController">
+            <connections>
+                <outlet property="endBill_txtField" destination="BYw-5B-oPs" id="4ct-oq-BGO"/>
+                <outlet property="initialBill_txtField" destination="LaA-gM-o2d" id="cdH-Cs-ayj"/>
+                <outlet property="view" destination="iN0-l3-epB" id="wzo-0x-fbt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nº Boleta Final" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BYw-5B-oPs">
+                    <rect key="frame" x="0.0" y="224" width="320" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="tAz-2P-giR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nº Boleta Inicio" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LaA-gM-o2d">
+                    <rect key="frame" x="0.0" y="164" width="320" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="rcZ-nu-D08"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="LaA-gM-o2d" firstAttribute="centerX" secondItem="BYw-5B-oPs" secondAttribute="centerX" id="5ek-VL-bpq"/>
+                <constraint firstItem="BYw-5B-oPs" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-40" id="Jcr-lD-Mvj"/>
+                <constraint firstItem="BYw-5B-oPs" firstAttribute="top" secondItem="LaA-gM-o2d" secondAttribute="bottom" constant="20" id="SKE-wt-vll"/>
+                <constraint firstItem="LaA-gM-o2d" firstAttribute="height" secondItem="BYw-5B-oPs" secondAttribute="height" id="UNM-uf-Lzl"/>
+                <constraint firstItem="BYw-5B-oPs" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Vxc-7d-sTt"/>
+                <constraint firstAttribute="trailing" secondItem="BYw-5B-oPs" secondAttribute="trailing" id="Zcy-DJ-O0d"/>
+                <constraint firstItem="LaA-gM-o2d" firstAttribute="width" secondItem="BYw-5B-oPs" secondAttribute="width" id="edX-LT-Qkw"/>
+                <constraint firstItem="BYw-5B-oPs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="tFE-Tn-LtF"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="426" y="407"/>
+        </view>
+    </objects>
+</document>

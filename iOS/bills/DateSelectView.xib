@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DateSelectViewController">
+            <connections>
+                <outlet property="inputDate" destination="K68-tW-zR6" id="KrJ-v9-3US"/>
+                <outlet property="view" destination="iN0-l3-epB" id="a45-07-NlT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Ingrese fecha" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K68-tW-zR6">
+                    <rect key="frame" x="8" y="234" width="304" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="WPN-Js-FrF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="hb2-uJ-LZH"/>
+                    </connections>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingresa la fecha del periodo a registrar" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8g9-x8-vgG">
+                    <rect key="frame" x="8" y="97" width="304" height="50"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="21"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="K68-tW-zR6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="3RD-0w-3oO"/>
+                <constraint firstItem="8g9-x8-vgG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="LVR-FG-0Mj"/>
+                <constraint firstItem="8g9-x8-vgG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="97" id="LqJ-8I-aMx"/>
+                <constraint firstAttribute="trailing" secondItem="8g9-x8-vgG" secondAttribute="trailing" constant="8" id="VnV-5g-V7w"/>
+                <constraint firstItem="K68-tW-zR6" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-30" id="a3J-38-3Gd"/>
+                <constraint firstAttribute="trailing" secondItem="K68-tW-zR6" secondAttribute="trailing" constant="8" id="ebG-Pf-BwL"/>
+                <constraint firstItem="K68-tW-zR6" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yR3-RN-aQI"/>
+            </constraints>
+            <point key="canvasLocation" x="287" y="407"/>
+        </view>
+    </objects>
+</document>
