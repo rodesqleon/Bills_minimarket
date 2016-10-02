@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectionViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="7Wd-Oy-Emr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xmb-70-zsb">
+                    <rect key="frame" x="84.5" y="204" width="151" height="41"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
+                    <state key="normal" title="Ingresar ventas">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="sells:" destination="-1" eventType="touchUpInside" id="d3o-mt-H20"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LBU-0z-YPX">
+                    <rect key="frame" x="0.0" y="284" width="320" height="0.0"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" id="nIK-wf-Dgw"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppS-FN-Amu">
+                    <rect key="frame" x="73.5" y="324" width="173" height="41"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
+                    <state key="normal" title="Ingresar compras">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="purchases:" destination="-1" eventType="touchUpInside" id="Fkd-Gh-zca"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Xmb-70-zsb" firstAttribute="top" secondItem="LBU-0z-YPX" secondAttribute="bottom" constant="-80" id="5od-uy-Rps"/>
+                <constraint firstItem="ppS-FN-Amu" firstAttribute="centerX" secondItem="LBU-0z-YPX" secondAttribute="centerX" id="Iyq-9J-2sv"/>
+                <constraint firstItem="Xmb-70-zsb" firstAttribute="centerX" secondItem="LBU-0z-YPX" secondAttribute="centerX" id="XFU-Xp-Wyo"/>
+                <constraint firstItem="LBU-0z-YPX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Z7r-PT-2EF"/>
+                <constraint firstItem="LBU-0z-YPX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="b6z-Q7-nXh"/>
+                <constraint firstItem="LBU-0z-YPX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bYz-Gh-Ql1"/>
+                <constraint firstItem="ppS-FN-Amu" firstAttribute="top" secondItem="LBU-0z-YPX" secondAttribute="bottom" constant="40" id="hCG-o8-YVx"/>
+                <constraint firstAttribute="trailing" secondItem="LBU-0z-YPX" secondAttribute="trailing" id="jDk-Js-jnE"/>
+            </constraints>
+            <point key="canvasLocation" x="426" y="395"/>
+        </view>
+    </objects>
+</document>

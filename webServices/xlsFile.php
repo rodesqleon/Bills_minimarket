@@ -5,7 +5,7 @@ include_once('connection_bills.php');
     $connection->connectToDatabase();
     $connection->selectDatabase();
 
-$select = "SELECT day as DIA, initial_bill as BOLETA_INICIO, end_bill as BOLETA_TERMINO, bill_value as SUBTOTAL FROM bills";
+$select = "SELECT day as DIA, initial_bill as BOLETA_INICIO, end_bill as BOLETA_TERMINO, bill_value as SUBTOTAL FROM bills WHERE month = 8 ";
 
 $export = mysql_query ( $select ) or die ( "Sql error : " . mysql_error( ) );
 

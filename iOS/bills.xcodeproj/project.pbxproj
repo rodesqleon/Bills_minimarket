@@ -14,6 +14,10 @@
 		A452F2661D38750900C1B15D /* billsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A452F2651D38750900C1B15D /* billsUITests.m */; };
 		A452F2741D38757700C1B15D /* DateSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A452F2731D38757700C1B15D /* DateSelectView.xib */; };
 		A452F2771D38759B00C1B15D /* DateSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A452F2761D38759B00C1B15D /* DateSelectViewController.m */; };
+		A48B63F91D4593A600CB7CAA /* SelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A48B63F81D4593A600CB7CAA /* SelectionView.xib */; };
+		A48B63FB1D4594A900CB7CAA /* PurchasesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A48B63FA1D4594A900CB7CAA /* PurchasesView.xib */; };
+		A48B63FE1D459B8500CB7CAA /* SelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48B63FD1D459B8500CB7CAA /* SelectionViewController.m */; };
+		A48B64011D459C5500CB7CAA /* PurchasesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48B64001D459C5500CB7CAA /* PurchasesViewController.m */; };
 		A4908D441D3AE28500A69A3D /* BillRangeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4908D431D3AE28500A69A3D /* BillRangeView.xib */; };
 		A4908D471D3AE39800A69A3D /* BillRangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4908D461D3AE39800A69A3D /* BillRangeViewController.m */; };
 		A4908D491D3AE99F00A69A3D /* BillView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4908D481D3AE99F00A69A3D /* BillView.xib */; };
@@ -63,6 +67,12 @@
 		A452F2731D38757700C1B15D /* DateSelectView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateSelectView.xib; sourceTree = "<group>"; };
 		A452F2751D38759B00C1B15D /* DateSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateSelectViewController.h; sourceTree = "<group>"; };
 		A452F2761D38759B00C1B15D /* DateSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateSelectViewController.m; sourceTree = "<group>"; };
+		A48B63F81D4593A600CB7CAA /* SelectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectionView.xib; sourceTree = "<group>"; };
+		A48B63FA1D4594A900CB7CAA /* PurchasesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchasesView.xib; sourceTree = "<group>"; };
+		A48B63FC1D459B8500CB7CAA /* SelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionViewController.h; sourceTree = "<group>"; };
+		A48B63FD1D459B8500CB7CAA /* SelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionViewController.m; sourceTree = "<group>"; };
+		A48B63FF1D459C5500CB7CAA /* PurchasesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchasesViewController.h; sourceTree = "<group>"; };
+		A48B64001D459C5500CB7CAA /* PurchasesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchasesViewController.m; sourceTree = "<group>"; };
 		A4908D431D3AE28500A69A3D /* BillRangeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BillRangeView.xib; sourceTree = "<group>"; };
 		A4908D451D3AE39800A69A3D /* BillRangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillRangeViewController.h; sourceTree = "<group>"; };
 		A4908D461D3AE39800A69A3D /* BillRangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillRangeViewController.m; sourceTree = "<group>"; };
@@ -122,6 +132,8 @@
 				A4908D431D3AE28500A69A3D /* BillRangeView.xib */,
 				A4908D481D3AE99F00A69A3D /* BillView.xib */,
 				A4908D551D3B15AB00A69A3D /* ExportView.xib */,
+				A48B63F81D4593A600CB7CAA /* SelectionView.xib */,
+				A48B63FA1D4594A900CB7CAA /* PurchasesView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -145,6 +157,10 @@
 				A4908D531D3B159300A69A3D /* ExportViewController.m */,
 				A4908D571D3B1A7D00A69A3D /* TransbankViewController.h */,
 				A4908D581D3B1A7D00A69A3D /* TransbankViewController.m */,
+				A48B63FC1D459B8500CB7CAA /* SelectionViewController.h */,
+				A48B63FD1D459B8500CB7CAA /* SelectionViewController.m */,
+				A48B63FF1D459C5500CB7CAA /* PurchasesViewController.h */,
+				A48B64001D459C5500CB7CAA /* PurchasesViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -276,7 +292,7 @@
 				TargetAttributes = {
 					A452F23C1D38750900C1B15D = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 9C82H6HW5W;
+						DevelopmentTeam = 53337WJ5R4;
 					};
 					A452F2551D38750900C1B15D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -318,8 +334,10 @@
 				A4B1072F1D38950600248CDC /* WelcomeView.xib in Resources */,
 				A4908D5B1D3B1B6300A69A3D /* TransbankView.xib in Resources */,
 				A452F24D1D38750900C1B15D /* Assets.xcassets in Resources */,
+				A48B63FB1D4594A900CB7CAA /* PurchasesView.xib in Resources */,
 				A4908D561D3B15AB00A69A3D /* ExportView.xib in Resources */,
 				A4908D491D3AE99F00A69A3D /* BillView.xib in Resources */,
+				A48B63F91D4593A600CB7CAA /* SelectionView.xib in Resources */,
 				A4B107371D38976C00248CDC /* PaymentSelectView.xib in Resources */,
 				A4908D441D3AE28500A69A3D /* BillRangeView.xib in Resources */,
 			);
@@ -346,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A48B63FE1D459B8500CB7CAA /* SelectionViewController.m in Sources */,
 				A452F2451D38750900C1B15D /* AppDelegate.m in Sources */,
 				A4908D4C1D3B0D8900A69A3D /* BillViewController.m in Sources */,
 				A4B107321D38955E00248CDC /* WelcomeViewController.m in Sources */,
@@ -354,6 +373,7 @@
 				A452F2771D38759B00C1B15D /* DateSelectViewController.m in Sources */,
 				A4B107351D38975700248CDC /* PaymentSelectViewController.m in Sources */,
 				A4908D591D3B1A7D00A69A3D /* TransbankViewController.m in Sources */,
+				A48B64011D459C5500CB7CAA /* PurchasesViewController.m in Sources */,
 				A4908D471D3AE39800A69A3D /* BillRangeViewController.m in Sources */,
 				A4908D541D3B159300A69A3D /* ExportViewController.m in Sources */,
 			);

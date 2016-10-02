@@ -24,6 +24,7 @@
     if (self) {
         // Custom initialization
     }
+    
     self.initial_bill = 0;
     
     return self;

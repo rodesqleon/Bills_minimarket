@@ -23,6 +23,7 @@
         // Custom initialization
     }
     //[self loadView];
+    
     return self;
 }
 
@@ -73,21 +74,6 @@
     }
     
     return YES;
-}
-
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
-    //hides keyboard when another part of layout was touched
-    NSDateFormatter *formatter = [NSDateFormatter new];
-    [formatter setDateFormat:@"d/M/yyyy"];
-    self.inputDate.text = [NSString stringWithFormat:@"%@", [formatter stringFromDate:self.datePicker.date]];
-    self.inputDate.textColor = [UIColor blueColor];
-    [self.inputDate resignFirstResponder];
-    UIBarButtonItem *finish = [[UIBarButtonItem alloc] initWithTitle:@"Siguiente" style:UIBarButtonItemStylePlain target:self
-                                                                                action:@selector(finish)];
-    finish.tintColor = [UIColor blueColor];
-    [[self navigationItem] setRightBarButtonItem:finish];
-    [self.view endEditing:YES];
-    [super touchesBegan:touches withEvent:event];
 }
 
 - (void)finish{

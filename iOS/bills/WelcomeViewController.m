@@ -7,7 +7,7 @@
 //
 
 #import "WelcomeViewController.h"
-#import "DateSelectViewController.h"
+#import "SelectionViewController.h"
 
 @interface WelcomeViewController ()
 
@@ -43,8 +43,8 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
     //hides keyboard when another part of layout was touched
-    DateSelectViewController *datePicker = [DateSelectViewController new];
-    [[self navigationController] pushViewController:datePicker animated:YES];
+    SelectionViewController *selectionVC = [SelectionViewController new];
+    [[self navigationController] pushViewController:selectionVC animated:YES];
    
 }
 
